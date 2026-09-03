@@ -6,7 +6,10 @@ Severity: High
 
 Attack Surface: vulnerability in the product category filter 
 
-What Happened: The category parameter was vulnerable to SQL injection.The solution for this Lab to retrive the ORACLE database version to do that we are using UNION to combine  query results and retrive the verion by using the below ' UNION SELECT banner,NULL FROM v$version-- Payload: ' UNION SELECT banner,NULL FROM v$version--
+What Happened: The category parameter was vulnerable to SQL injection.The solution for this Lab to retrive the ORACLE database version to do that we are using UNION to combine  query results and retrive the verion by using the below ' UNION SELECT banner,NULL FROM v$version-- 
+
+
+Payload: ' UNION SELECT banner,NULL FROM v$version--
 
 Impact: We can get the database version with that we can able to Known CVE for that version
 
