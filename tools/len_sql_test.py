@@ -54,4 +54,3 @@ while True:
 
 
 print(f"\nFull password: {password}")
-        
